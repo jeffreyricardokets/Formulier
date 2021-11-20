@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding:0;
+    outline: 0;
+    background-color: #D6D1B1;
+}
+
+nav{
+    background-color: #C7EFCF ;
+    height: 100px; 
+    width: 100%;
+    display: inline-block;
+}
+nav h1{
+    font-size: 36px;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: inline;
+    float:left;
+}
+
+nav ul{
+    list-style-type: none;
+    padding-right: 300px;
+    margin-top: 20px;
+}
+
+
+nav ul li a{
+    color:black;
+    background-color: #F0B67F;
+    display: inline;
+    margin: 0px 10px;
+    padding: 5px 30px;
+    float: right;
+    font-size: 18px;
+}
+section{
+    margin-top: 120px;
+    margin-left: 50px;
+    float: left;
+    width: 1100px;
+}
+section p{
+    font-size: 18px;
+
+}
+
+aside img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+aside{
+    margin-top:50px;
+    margin-right: 100px;
+    width: 300px;
+    float: right;
+}
+aside p{
+    margin-top:50px;
+}
+
+article{
+    display: inline-block;
+    margin-left: 50px ;
+    margin-top: 100px;
+    width: 1100px;
+    
+}
+article img{
+    width: 1100px;
+    height: 1100px;
+}
+
+
+footer{
+    background-color: #C7EFCF;
+    width: 100%;
+    height: 60px;
+}
+footer p{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1600px) {
+
+    section,article,article img{
+        width: 900px;
+    }
+    aside,aside IMG{
+        width: 200px;
+    }
+    aside IMG{
+        height: 200px;
+    }
+
+}
+@media only screen and (max-width: 1200px) {
+
+    section,article,article img{
+        width: 700px;
+    }
+    article img{
+        height: 700px;
+    }
+    section{
+        margin-top: 50px;
+    }
+    aside,aside IMG{
+        width: 200px;
+    }
+    aside IMG{
+        height: 200px;
+    }
+    aside{
+        margin-right: 50px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    section,article,article img{
+        width: 600px;
+    }
+    article img{
+        height: 600px;
+    }
+    section{
+        margin-top: 50px;
+    }
+    aside,aside IMG{
+        width: 200px;
+    }
+    aside IMG{
+        height: 200px;
+    }
+    aside{
+        margin-right: 50px;
+    }
+    nav ul{
+        display: none;
+    }
+}
